@@ -1,6 +1,6 @@
 version: 2
 models:
-  - name: stg_sales.sql
+  - name: stg_sales
     description: "sales data"
 
     columns:
