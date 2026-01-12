@@ -1,0 +1,12 @@
+version: 2
+models:
+  - name: stg_sales.sql
+    description: "sales data"
+
+    columns:
+      - name: sale_date
+        tests:
+          - not_null
+      - name: product_id
+        tests:
+          - not_null
